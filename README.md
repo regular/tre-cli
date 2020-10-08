@@ -1,4 +1,4 @@
 tre-cli
 ---
 
-License: ISC
+License: MIT
