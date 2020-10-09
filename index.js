@@ -3,7 +3,8 @@ const minimist = require('minimist')
 const debug = require('debug')('tre-cli')
 
 const COMMANDS = {
-  export: {bin: 'tre-export', desc: 'extract data from a set of ssb messages'}
+  'import': {bin: 'tre-import', desc: 'read a JSON stream and publish its content as ssb messages'},
+  'export': {bin: 'tre-export', desc: 'extract data from a set of ssb messages'}
 }
 
 module.exports = function(argv, cerr, cb) {

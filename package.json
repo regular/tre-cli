@@ -23,6 +23,7 @@
   "dependencies": {
     "debug": "^4.2.0",
     "minimist": "^1.2.5",
-    "tre-export": "^1.3.2"
+    "tre-export": "^1.3.2",
+    "tre-import": "^1.0.1"
   }
 }
