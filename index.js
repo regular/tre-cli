@@ -3,6 +3,7 @@ const minimist = require('minimist')
 const debug = require('debug')('tre-cli')
 
 const COMMANDS = {
+  'server': {bin: 'tre-cli-server', desc: 'start an ssb server and optionally run a shell command'},
   'import': {bin: 'tre-import', desc: 'read a JSON stream and publish its content as ssb messages'},
   'export': {bin: 'tre-export', desc: 'extract data from a set of ssb messages'}
 }
