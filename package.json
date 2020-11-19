@@ -23,6 +23,7 @@
   "dependencies": {
     "debug": "^4.2.0",
     "minimist": "^1.2.5",
+    "tre-cli-about": "^1.0.0",
     "tre-cli-apps": "^2.0.2",
     "tre-cli-server": "^1.0.1",
     "tre-compile": "^2.0.3",

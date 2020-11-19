@@ -7,7 +7,8 @@ const COMMANDS = {
   'apps': {bin: 'tre-apps', desc: 'list and deploy webapps and create invite codes'},
   'server': {bin: 'tre-cli-server', desc: 'start an ssb server and optionally run a shell command'},
   'import': {bin: 'tre-import', desc: 'read a JSON stream and publish its content as ssb messages'},
-  'export': {bin: 'tre-export', desc: 'extract data from a set of ssb messages'}
+  'export': {bin: 'tre-export', desc: 'extract data from a set of ssb messages'},
+  'about': {bin: 'tre-cli-about', desc: 'set icons, names and descriptions for identities, applications and networks'}
 }
 
 module.exports = function(argv, cerr, cb) {
