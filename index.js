@@ -3,6 +3,8 @@ const minimist = require('minimist')
 const debug = require('debug')('tre-cli')
 
 const COMMANDS = {
+  'init': {bin: 'tre-cli-init', desc: 'create a new ssb network (.trerc file)'},
+  'import-files': {bin: 'tre-cli-import-files', desc: 'publish messages, assets and prototypes'},
   'compile': {bin: 'tre-compile', desc: 'bundles an application for distribution via ssb'},
   'apps': {bin: 'tre-apps', desc: 'list and deploy webapps and create invite codes'},
   'server': {bin: 'tre-cli-server', desc: 'start an ssb server and optionally run a shell command'},
