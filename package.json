@@ -24,7 +24,7 @@
     "debug": "^4.3.2",
     "minimist": "^1.2.5",
     "tre-cli-about": "^1.0.0",
-    "tre-cli-apps": "^2.0.2",
+    "tre-cli-apps": "^2.0.3",
     "tre-cli-import-files": "^1.0.0",
     "tre-cli-init": "^1.0.0",
     "tre-cli-server": "^1.0.1",
