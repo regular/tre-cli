@@ -6,7 +6,7 @@ const COMMANDS = {
   'init': {bin: 'tre-cli-init', desc: 'create a new ssb network (.trerc file)'},
   'import-files': {bin: 'tre-cli-import-files', desc: 'publish messages, assets and prototypes'},
   'compile': {bin: 'tre-compile', desc: 'bundles an application for distribution via ssb'},
-  'apps': {bin: 'tre-apps', desc: 'list and deploy webapps and create invite codes'},
+  'apps': {module: 'tre-cli-apps', bin: 'tre-apps', desc: 'list and deploy webapps and create invite codes'},
   'server': {bin: 'tre-cli-server', desc: 'start an ssb server and optionally run a shell command'},
   'import': {bin: 'tre-import', desc: 'read a JSON stream and publish its content as ssb messages'},
   'export': {bin: 'tre-export', desc: 'extract data from a set of ssb messages'},
@@ -31,7 +31,7 @@ module.exports = function(argv, cerr, cb) {
     for(let [key, {module, bin}] of Object.entries(COMMANDS)) {
       if (!module) module = bin
       const {version} = require(`${module}/package.json`)
-      cerr(`${bin} ${version}`)
+      cerr(`${module} ${version}`)
     }
     cb()
   }
