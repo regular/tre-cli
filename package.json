@@ -1,6 +1,6 @@
 {
   "name": "tre-cli-tools",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "command line tools for tre, an application unframework for ssb/Bay of Plenty apps",
   "main": "index.js",
   "bin": {
