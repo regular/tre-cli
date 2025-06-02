@@ -7,7 +7,8 @@
     "tre": "bin.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "dependencies": {
     "debug": "^4.3.2",
     "minimist": "^1.2.5",
+    "patch-package": "^8.0.0",
     "sodium-native": "^4.3.1",
     "tre-cli-about": "^1.0.0",
     "tre-cli-apps": "github:regular/tre-cli-apps",
