@@ -26,7 +26,7 @@
     "minimist": "^1.2.5",
     "patch-package": "^8.0.0",
     "sodium-native": "^4.3.1",
-    "tre-cli-about": "^1.0.0",
+    "tre-cli-about": "github:regular/tre-cli-about",
     "tre-cli-apps": "github:regular/tre-cli-apps",
     "tre-cli-import-files": "^1.0.0",
     "tre-cli-init": "^1.0.0",
