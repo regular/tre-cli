@@ -27,6 +27,7 @@
     "patch-package": "^8.0.0",
     "sodium-native": "^4.3.1",
     "ssb-private": "^1.1.0",
+    "ssb-sandboxed-views": "github:regular/ssb-sandboxed-views",
     "tre-cli-about": "github:regular/tre-cli-about",
     "tre-cli-apps": "github:regular/tre-cli-apps",
     "tre-cli-import-files": "github:regular/tre-cli-import-files",
